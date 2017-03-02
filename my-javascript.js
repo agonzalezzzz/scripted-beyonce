@@ -11,7 +11,7 @@ $(function() {
   });
   
   $("#edit-earlylife").click(function() {
-    let content = prompt("Early life");
+    var text = prompt("Early life");
     $("#earlylife").text(content);
   });
 });
